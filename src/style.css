@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+:root{
+  --font-name: "Alegreya Sans SC", sans-serif;
+  --paragraph: "Ubuntu", sans-serif;
+}
+
+p{
+  font-family: var(--paragraph);
+}
+
+.card{
+  margin: 80px auto;
+}
+
+.card img{
+  border-radius: 50%;
+  width: 200px;
+}
+
+.card-title, h1{
+  font-family: var(--font-name);
+}
+
+.divider{
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.container{
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.badge-primary{
+  margin: 20px 2px;
+  padding: 15px;
+  background-color: #00366f8b;
+}
+
+
+.divider{
+  margin: 10px auto;
+}
+
+.title{
+  margin-bottom: -15px;
+}
